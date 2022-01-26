@@ -1,0 +1,35 @@
+.live_search_picture {
+  float: left;
+}
+
+.live_search_picture img {
+  border-radius: 100%;
+}
+
+.results {
+  margin-top: 10px;
+  margin-left: 19px;
+}
+
+.live_saerch_result:hover {
+  background-color: #e0e0e0;
+}
+
+.live_saerch_result {
+  width: fit-content;
+  min-width: 200px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+}
+
+.names_live_search {
+  margin-top: -2px;
+}
+
+.username_live_search {
+  margin-top: -6px;
+  font-size: 13px;
+  color: #868686;
+}

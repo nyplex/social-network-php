@@ -1,0 +1,33 @@
+.mesphoto {
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container_gallery {
+  text-align: center;
+}
+#photo_div_profile {
+  max-height: 800px;
+  overflow: auto;
+  margin-top: -10px;
+}
+.mesphoto:hover {
+  opacity: 0.7;
+}
+#photo_div_profile::-webkit-scrollbar {
+  width: 7px;
+}
+
+#photo_div_profile::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+#photo_div_profile::-webkit-scrollbar-thumb {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+#photo_div_profile::-webkit-scrollbar-thumb:hover {
+  background: #c5c6c7;
+  cursor: pointer;
+}

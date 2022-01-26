@@ -1,0 +1,253 @@
+.new_message_title_side {
+  text-align: center;
+}
+
+.profile_pic_message_side {
+  float: left;
+  border-radius: 100%;
+}
+
+.message_b {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.message_b .text_content_user {
+  max-width: 450px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #5e9cfa;
+  margin-right: 5px;
+}
+
+.profile_user_blue {
+  float: right;
+  width: 40px;
+  height: auto;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.message_g {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.text_content_user {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.message_content_user {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.message_g .text_content_user {
+  max-width: 450px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #3abd45;
+  margin-left: 5px;
+}
+
+.profile_user_green {
+  float: left;
+  width: 40px;
+  height: auto;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.time_frame_message {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.loaded_messages {
+  max-height: 800px;
+  overflow: auto;
+  min-height: 600px;
+  padding-top: 3px;
+}
+
+#form_private_message {
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.postedImage video {
+  max-width: 223px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.postedImage img {
+  max-width: 223px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.postedImage img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.loaded_messages::-webkit-scrollbar {
+  width: 7px;
+}
+
+.loaded_messages::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.loaded_messages::-webkit-scrollbar-thumb {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+.loaded_messages::-webkit-scrollbar-thumb:hover {
+  background: #c5c6c7;
+  cursor: pointer;
+}
+
+#message_textarea {
+  width: 80%;
+}
+
+#img_preview {
+  max-height: 120px;
+}
+
+#fa-pen-square {
+  color: #797575;
+  font-size: 30px;
+}
+
+.link-new:hover {
+  color: #007bff;
+}
+
+.profile_pic_left_content {
+  border-radius: 100%;
+  margin-left: 6px;
+  margin-top: 6px;
+  margin-right: 3px;
+}
+.names_left_content {
+  margin-top: 5px;
+}
+
+.main_content_left_side {
+  margin-left: -10px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+}
+
+.main_content_left_side:hover {
+  background-color: #cacaca;
+}
+
+.main_content_left_side a {
+  text-decoration: none;
+}
+
+.time_frame_left_content {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  margin-top: -26px;
+  color: #757373;
+}
+
+.after_profile_pic {
+  display: inline-block;
+  margin-top: -8px;
+}
+
+.message_content_left_Side {
+  margin-top: -25px;
+  color: grey;
+  font-size: 15px;
+}
+
+.link_new_mobile {
+  display: none;
+}
+
+/*////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+@media (max-width: 1100px) {
+  .link_new_mobile {
+    display: inline-block;
+  }
+}
+
+@media (max-height: 1100px) {
+  .loaded_messages {
+    max-height: 700px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 1000px) {
+  .loaded_messages {
+    max-height: 600px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 900px) {
+  .loaded_messages {
+    max-height: 550px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 800px) {
+  .loaded_messages {
+    max-height: 450px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 700px) {
+  .loaded_messages {
+    max-height: 380px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 600px) {
+  .loaded_messages {
+    max-height: 220px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 500px) {
+  .loaded_messages {
+    max-height: 150px;
+    overflow: auto;
+  }
+}
+
+@media (max-height: 500px) {
+  .loaded_messages {
+    max-height: 80px;
+    overflow: auto;
+  }
+}

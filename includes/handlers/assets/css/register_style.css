@@ -1,0 +1,503 @@
+/*Style the background*/
+body {
+  background-image: url(images/desktop.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
+}
+@media (min-width: 900px) {
+/*Center forms and header*/
+.wrapper {
+  text-align: center;
+}
+
+.login_box {
+  display: inline-block;
+  background-color: #fff;
+  width: 80%;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 0 0 10px 0;
+  border-radius: 7px;
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.75);
+  margin: 0;
+  max-height: 90%;
+  min-height: 30%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+
+h1 {
+  margin: 0;
+  color: #F26101;
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.login_header {
+  background-color: #304269;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.sex_div {
+  border: solid 1px #cacaca;
+  display: inline-block;
+  width: 81%;
+  height: 33px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.sex_div label {
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  cursor: pointer;
+  color: #767575;
+}
+
+input:focus {
+  outline: none;
+}
+
+.inputN {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: solid 1px #cacaca;
+  padding-left: 5px;
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.inputS {
+  margin-top: 10px;
+}
+
+.input_male {
+  margin-right: 38%;
+}
+
+select {
+  height: 34px;
+  width: 32.3%;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border: solid 1px #cacaca;
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #5d5c5c;
+}
+
+select:focus {
+  outline: none;
+}
+
+.country_div {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 82%;
+  margin-bottom: 25px;
+}
+
+h4 {
+  font-family: swister, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 33px;
+  margin: 0;
+  color: #24B4F0;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+h4:hover {
+  color: #1278a2;
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #D9E8F5;
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #304269;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F26101;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+}
+
+.forgot_password {
+  margin-bottom: 20px;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  margin-top: -32px;
+}
+
+.forgot_password a {
+  text-decoration: none;
+  color: black;
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.forgot_password a:hover {
+  color: #5571c0;
+  ;
+}
+
+.footer_register {
+  font-size: 12px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.footer_register p {
+  margin: 0;
+}
+
+.second {
+  display: none;
+}
+
+.errors {
+  margin-top: -9px;
+  color: #ff4545;
+}
+
+.get_password {
+  width: 240px;
+}
+
+h5 {
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: -20px;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 350px;
+  text-align: center;
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+}
+@media (max-width: 900px) {
+  /*Center forms and header*/
+  .wrapper {
+    text-align: center;
+  }
+
+  .login_box {
+    display: inline-block;
+    background-color: #fff;
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 0 0 10px 0;
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.75);
+    margin: 0;
+    max-height: 90%;
+    min-height: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 4%;
+  }
+
+  h1 {
+    margin: 0;
+    color: #F26101;
+    font-family: cubano, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .login_header {
+    background-color: #304269;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+
+  .sex_div {
+    border: solid 1px #cacaca;
+    display: inline-block;
+    width: 81%;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .sex_div label {
+    font-family: gitan-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    color: #767575;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .inputN {
+    width: 80%;
+    height: 22px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid 1px #cacaca;
+    padding-left: 5px;
+    font-family: gitan-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  .inputS {
+    margin-top: 10px;
+  }
+
+  .input_male {
+    margin-right: 38%;
+  }
+
+  select {
+    height: 26px;
+    width: 32%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    border: solid 1px #cacaca;
+    font-family: gitan-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #5d5c5c;
+  }
+
+  select:focus {
+    outline: none;
+  }
+
+  .country_div {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 82%;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-family: swister, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    color: #24B4F0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+
+  button {
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #D9E8F5;
+    font-family: cubano, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #304269;
+    cursor: pointer;
+  }
+
+
+  .forgot_password {
+    margin-bottom: 20px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-top: -32px;
+  }
+
+  .forgot_password a {
+    text-decoration: none;
+    color: black;
+    font-family: gitan-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+
+  .footer_register {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .footer_register p {
+    margin: 0;
+  }
+
+  .second {
+    display: none;
+  }
+
+  .errors {
+    margin-top: -9px;
+    color: #ff4545;
+    font-size: 12px;
+  }
+
+  .get_password {
+    width: 240px;
+  }
+
+  h5 {
+    font-family: gitan-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: -20px;
+  }
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 350px;
+    text-align: center;
+    font-family: gitan-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+}

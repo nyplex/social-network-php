@@ -1,0 +1,88 @@
+#all_center_profile {
+  margin-top: -90px;
+}
+
+.nav_menu {
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.main_post_form {
+  margin-top: 0;
+}
+#main_column_profile {
+  margin-top: 0;
+}
+
+#button_add_friend {
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+  float: right;
+}
+
+#button_add_friend button {
+  background-color: transparent;
+  border: none;
+  margin-top: 5px;
+  margin-right: 3px;
+}
+
+#button_add_friend i {
+  font-size: 30px;
+}
+
+#button_add_friend i:hover {
+  font-size: 33px;
+}
+
+
+@media (max-width: 1100px) {
+  #all_center_profile {
+    margin-top: 0;
+  }
+
+  #all_center_mobile {
+    margin-top: -45px;
+  }
+
+  #info_column_mobile {
+    margin-bottom: 20px;
+  }
+
+  .main_column {
+    margin-top: 15px;
+  }
+
+  .nav-tabs {
+    font-size: 13px;
+  }
+
+  #center_menu_mobile {
+    width: 100%;
+  }
+
+  #button_add_friend {
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    float: right;
+  }
+
+  #button_add_friend button {
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+    margin-right: 3px;
+  }
+
+  #button_add_friend i {
+    font-size: 19px;
+  }
+
+  #button_add_friend i:hover {
+    font-size: 21px;
+  }
+}

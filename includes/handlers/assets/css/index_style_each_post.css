@@ -1,0 +1,231 @@
+.each_post {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+
+.all_center {
+  margin-bottom: 40px;
+}
+
+.post_profile_pic {
+  display: inline-block;
+}
+
+.post_profile_pic img {
+  border-radius: 100%;
+  width: 29px;
+}
+
+.post_body p {
+  font-size: 18px;
+}
+
+.hr_post_body {
+  margin-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.posted_by {
+  display: inline-block;
+  height: 29px;
+}
+
+.posted_by a {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.posted_by a:hover {
+  text-decoration: none;
+}
+
+.left_side_post {
+  display: inline-block;
+  float: right;
+  height: 29px;
+}
+
+.time_frame_post {
+  display: inline-block;
+  height: 14px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.time_frame_post p {
+  vertical-align: -webkit-baseline-middle;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #7d7c7c;
+}
+
+.delete_button_post {
+  display: inline-block;
+}
+
+.posted_media {
+  text-align: center;
+}
+
+.posted_image img {
+  border-radius: 7px;
+  max-width: 100%;
+  width: auto;
+  max-height: 500px;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+}
+
+.posted_image img:hover {
+  opacity: 0.8;
+}
+
+.posted_image video {
+  border-radius: 7px;
+  max-width: 100%;
+  width: auto;
+  max-height: 500px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+}
+
+.like_post {
+  float: right;
+}
+
+.like_post_button {
+  display: inline-block;
+  font-size: 18px;
+  color: #5f5e5e;
+  margin-right: 5px;
+}
+
+.like_post_button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.newsFeedPostOptions {
+  height: 17px;
+  margin-bottom: 3px;
+}
+
+.delete_post_button {
+  border: none;
+  background-color: transparent;
+}
+
+.delete_button_post {
+  vertical-align: -webkit-baseline-middle;
+}
+
+/*STYLE the modal box of each picture for each post*/
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: auto;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+}
+
+#img01 {
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  height: auto;
+  margin-top: -20px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: auto;
+  max-width: 700px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close_modal {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #adabab;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close_modal:hover {
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: auto;
+    max-height: 100%;
+  }

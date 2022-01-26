@@ -1,0 +1,178 @@
+.comment_iframe {
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  margin: auto;
+  min-height: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border: solid 1px #b6b6b6;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.comment_section {
+  width: 97%;
+  margin: auto;
+  margin-left: 7px;
+}
+
+.body_iframe {
+  background-color: #fff;
+}
+
+.body_iframe::-webkit-scrollbar {
+  width: 7px;
+}
+
+.body_iframe::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.body_iframe::-webkit-scrollbar-thumb {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+.body_iframe::-webkit-scrollbar-thumb:hover {
+  background: #c5c6c7;
+  cursor: pointer;
+}
+
+.comment_form textarea {
+  width: 85%;
+  position: fixed;
+  border-radius: 5px;
+  height: 40px;
+  resize: none;
+}
+
+.comment_form button {
+  float: right;
+  position: fixed;
+  border-radius: 5px;
+  border: none;
+  font-family: gitan-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  outline: none;
+  background-color: #6283a0;
+  margin-right: 8px;
+  width: 12%;
+  height: 40px;
+}
+
+.button_comment {
+  text-align: right;
+  margin-right: 13%;
+}
+
+.post_comment_section {
+  height: 60px;
+}
+
+.post_comment_section form {
+  width: 100%;
+  height: 42px;
+  position: fixed;
+  background-color: #fff;
+}
+
+.comment_profile_pic img {
+  float: left;
+  width: 22px;
+  border-radius: 100%;
+}
+
+.posted_by_comment {
+  font-size: 15px;
+  margin-top: -6px;
+  margin-bottom: -6px;
+}
+
+.posted_by_comment a:hover {
+  text-decoration: none;
+}
+
+.comment_left_side {
+  float: right;
+}
+
+.comment_like {
+  display: inline-block;
+}
+
+.comment_time_frame {
+  font-size: 11px;
+  color: #464545;
+}
+
+.comment_name_time {
+  display: inline-block;
+  height: 22px;
+  margin-left: 3px;
+}
+
+.comment_like button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.fa-trash {
+  color: #494747;
+  font-size: 16px;
+}
+
+.fa-trash:hover {
+  color: #F26101;
+}
+
+.fa-heart {
+  color: red;
+  font-size: 16px;
+}
+
+.body_comment {
+  border: solid 1px #a9a8a8;
+  border-radius: 3px;
+  background-color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: -2px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.body_comment p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.no_more_comment {
+  text-align: center;
+}
+
+.no_comment {
+  text-align: center;
+}
+
+.link_comment {
+  font-size: 18px;
+  color: #5f5e5e;
+  cursor: pointer;
+}
+
+.link_comment:hover {
+  text-decoration: underline;
+}
+
+.like_comment_button {
+  font-size: 16px;
+  color: #5f5e5e;
+}
+
+.like_comment_button:hover {
+  text-decoration: underline;
+}

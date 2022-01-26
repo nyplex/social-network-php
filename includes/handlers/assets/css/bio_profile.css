@@ -1,0 +1,134 @@
+.profile_pic_profile_section {
+  text-align: center;
+}
+
+.profile_pic_profile_section img {
+  border-radius: 100%;
+  margin-top: 15px;
+  box-shadow: 0px 0px 9px 1px rgba(114, 177, 255, 0.75);
+}
+
+.top_part_bio_profile i {
+  color: #3c3c3c;
+}
+
+.middle_part_bio_profile i {
+  color: #3c3c3c;
+}
+
+.last_part_bio_profile i {
+  color: #3c3c3c;
+}
+
+.profile_pic_profile_section h4 {
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff6a00;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.icon_bio {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.top_part_bio_profile span {
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.middle_part_bio_profile span {
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.last_part_bio_profile span {
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+#message_center_profile_bio {
+  max-height: 800px;
+  overflow: auto;
+  margin-top: -10px;
+}
+
+#message_center_profile_bio::-webkit-scrollbar {
+  width: 7px;
+}
+
+#message_center_profile_bio::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+#message_center_profile_bio::-webkit-scrollbar-thumb {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+#message_center_profile_bio::-webkit-scrollbar-thumb:hover {
+  background: #c5c6c7;
+}
+
+#bio_icon1 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#bio_icon3 {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+#bio_icon4 {
+  margin-left: 12px;
+}
+
+#bio_icon5 {
+  margin-left: 9px;
+  margin-right: 6px;
+}
+
+#bio_icon6 {
+  margin-left: 14px;
+  margin-right: 13px;
+}
+
+#bio_icon7 {
+  font-size: 28px;
+  margin-left: 12px;
+}
+
+#bio_icon8 {
+  margin-right: 4px;
+}
+
+#bio_icon9 {
+  margin-left: 13px;
+}
+
+#bio_icon10 {
+  margin-left: 14px;
+  margin-right: 12px;
+}
+
+#bio_icon11 {
+  margin-left: 13px;
+}
+
+.last_part_bio_profile p {
+  border: solid 1px black;
+  width: 95%;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,84 @@
+.dropdown_data_window {
+  position: fixed;
+  z-index: 1;
+  background-color: #ffffff;
+  overflow: auto;
+  margin-top: 44px;
+  right: 0px;
+  width: 25%;
+  min-width: 330px;
+  max-width: 400px;
+  border-bottom-left-radius: 7px;
+}
+
+.dropdown_data_window::-webkit-scrollbar {
+  width: 7px;
+}
+
+.dropdown_data_window::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.dropdown_data_window::-webkit-scrollbar-thumb {
+  background: #e3e4e6;
+  border-radius: 20px;
+}
+
+.dropdown_data_window::-webkit-scrollbar-thumb:hover {
+  background: #c5c6c7;
+}
+
+.dropdown_data_window img {
+  border-radius: 100%;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 6px;
+}
+
+.user_found_messages {
+  background-color: #c1bbbb;
+}
+
+.time_frame_dropdown {
+  font-size: 11px;
+  color: grey;
+  text-decoration: none;
+  margin-top: -6px;
+}
+
+.content_dropdown {
+  color: black;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  padding-bottom: 7px;
+}
+
+.profile_pic_dropdown {
+  display: inline-block;
+  float: left;
+  margin-top: 3px;
+}
+
+.side_result_dropdown a:hover {
+  text-decoration: none;
+}
+
+.side_result_dropdown {
+  border-radius: 5px;
+}
+
+.side_result_dropdown:hover {
+  background-color: #c5c4c4;
+}
+.new_message_dropdown {
+  margin-bottom: 8px;
+}
+
+.dropdown_each_result a:hover {
+  text-decoration: none;
+}
+#result_notif {
+  padding-bottom: 7px;
+  min-height: 64px;
+}
